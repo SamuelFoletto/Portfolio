@@ -12,7 +12,7 @@ html, body{
     color: white;
     scroll-behavior: smooth;
 }
-.gradient {
+.gradient-text {
     background-image: linear-gradient(rgb(93, 95, 196), rgb(54, 44, 194), rgb(26, 16, 165));
     color: black;
     background-clip: text;
@@ -125,6 +125,7 @@ h2{
 .img-ling{
     width: 150px;
 }
+
 .gradient2 {
     background-image: linear-gradient(rgb(93, 95, 196), rgb(54, 44, 194), rgb(26, 16, 165));
     color: black;
