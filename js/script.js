@@ -21,15 +21,15 @@ window.onscroll = function () {
 function scrollFunction() {
     var image = document.getElementById("logo-img");
     if (document.documentElement.scrollTop > 800)
-        image.src = "img/logo-black.svg";
+        image.src = "IMG/logo-black.svg";
     else
         image.src = 
-        "img/logo-white.svg";
+        "IMG/logo-white.svg";
 
 var image = document.getElementById("menuImg");
 if (document.documentElement.scrollTop > 800)
-    image.src = "img/menu2.png";
+    image.src = "IMG/menu2.png";
 else
     image.src = 
-    "img/menu.png";
+    "IMG/menu.png";
 }
