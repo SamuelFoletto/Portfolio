@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/dark.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Foletto_logo_4.svg" type="image/x-icon">
+    <title>Foletto</title>
+
+</head>
+<body>
+    <div id="header">
+            <div id="nav">
+                <div id="logo">
+                    <img src="IMG/logo-white.svg" id="logo-img">
+                </div>
+                <div id="nav-main">
+                    <ul>
+                        <li><a href="#degrade-main">Home</a></li>
+                        <li><a href="#sec-roll">Sobre mim</a></li>
+                        <li><a href="#third-roll">Projetos</a></li>
+                        <li><a href="#foot-container">Contatos</a></li>
+                    </ul>
+                </div>
+                <button ><img src="IMG/menu.png" onclick="clickMenu()" id="menuImg"></button>
+            </div>       
+        <menu id="mobileMenu">
+            <ul>
+                <li><a href="#degrade-main">Home</a></li>
+                <li><a href="#sec-roll">Sobre mim</a></li>
+                <li><a href="#third-roll">Projetos</a></li>
+                <li><a href="#foot-container">Contatos</a></li>
+            </ul>
+        </menu>
+    </div>
+
+
+    <main id="degrade-main">
+        <div id="left-main">
+            <h1>Olá, Seja Bem-Vindo ao meu portfólio</h1>
+            <p>Aqui você encontrará um pouco sobre mim e meus projetos desenvolvidos</p>
+        </div>
+        <div id="right-main">
+            <img src="img/Foletto_logo_4.svg" alt="" id="logo-main">
+        </div>
+    </main>
+    <div id="sec-roll">
+        <div id="container-sec">
+            <h1>Sobre mim</h1>
+            <div id="container-bio">
+            <div id="text-about">
+                <p>Olá! Eu me chamo Samuel, tenho 24 anos, sou de Cascavel - PR e estou buscando minha primeira oportunidade na área de tecnologia!</p>
+                <p>Me formei em Técnico de Informatica em 2017 e no momento estou cursando Analise e Desenvolvimento de Sistemas na PUCPR onde possuo bolsa integral pelo PROUNI.</p>
+                <p>Atualmente busco aprender tanto front-end quanto back-end para ter uma gama maior de oportunidades de conseguir meu primeiro emprego na área!</p>
+                <p>Possuo grande experiencia com atendimento ao público, boa comunicação e facilidade em aprender novas habilidades.</p>
+                <p>Juntamente com a graduação, venho concluindo diversos cursos para acelerar meu aprendizado e conseguir colocar em prática meus conhecimentos no meu futuro emprego.</p>
+            </div>
+            <div>
+                <img src="img/bio.jpg" id="bio-img">
+            </div>
+            </div>
+            <h2>Tecnologias que ja utilizei</h2>
+            <div>
+                <img src="img/html.png" class="icon">
+                <img src="img/css.png" class="icon">
+                <img src="img/javascript.png" alt="" class="icon">
+                <img src="img/php.png" alt="" class="icon">
+                <img src="img/mysql.png" alt="" class="icon">
+
+            </div>
+            <h2>Tecnologias em Desenvolvimento</h2>
+            <div>
+                <img src="IMG/react.png" class="icon">
+                <img src="img/python.png" alt="" class="icon">
+            </div>
+        </div>
+    </div>
+    <div id="third-roll">
+        <h1>Meus Projetos</h1>
+        <div class="projects">
+            <a href="">
+            <div class="cards">
+                <img src="img/projeto1.png" class="img-card">
+                <div class="card-text">
+                    <h2>Busca de classificação</h2>
+                    <p>Sistema para facilitar a classificação de registros de marca. <br>
+                    Com este sistema, você consegue rapidamente descobrir qual a classe correspondente ao determinado serviço ou produto desejado.</p>
+                    <div> 
+                        <img src="IMG/html.png" alt="" class="card-icon">
+                        <img src="IMG/css.png" alt="" class="card-icon">
+                        <img src="IMG/php.png" alt="" class="card-icon">
+                        <img src="IMG/mysql.png" alt="" class="card-icon">
+                    </div>
+                </div>
+        </div>
+    </a>
+    <div class="cards-build">
+        <p>EM ANDAMENTO </p>
+
+            </div>
+            <div class="cards-build">
+                <p>EM ANDAMENTO </p>
+
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div id="foot-container">
+            <a href="https://github.com/SamuelFoletto" target="_blank"><img src="img/github.png" class="footer-icon"></a>
+            <a href="https://www.linkedin.com/in/samuel-foletto-9b2a2a1b3/" target="_blank"><img src="img/in.png" class="footer-icon"></a>
+            <a href="mailto:sfoletto@gmail.com"><img src="img/mail.png" class="footer-icon"></a>
+            <a href="https://web.whatsapp.com/send?phone=5545999049173" target="_blank"><img src="img/wpp.png" class="footer-icon"></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
