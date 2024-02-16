@@ -9,14 +9,10 @@
 nav{
   display: flex;
   align-items: center;
-  margin: -180px auto 30px;
   height: 50px;
+  margin-bottom: 20px;
+  padding: 15px 50px;
 }
-
-
-
-
-
 
 
 #degrade-main{
@@ -26,7 +22,7 @@ nav{
   background-size: 500% 100%;
   animation: degrade-main 7s infinite alternate;
   color: #fff;
-  padding: 200px;
+
 }
 @keyframes degrade-main  {
   0%{
