@@ -6,6 +6,19 @@
   color: #333;
 }
 
+nav{
+  display: flex;
+  align-items: center;
+  margin: -180px auto 30px;
+  height: 50px;
+}
+
+
+
+
+
+
+
 #degrade-main{
   width: 100%;
   height: 100vh;
