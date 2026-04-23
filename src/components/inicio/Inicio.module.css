@@ -1,0 +1,87 @@
+.content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+            -45deg,
+            #0d141c,
+            #243b55,
+            #0d141c,
+            #243b55
+    );
+    background-size: 400% 400%;
+    animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 100%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+
+}
+
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+.name{
+    font-size: 4rem;
+}
+
+.job{
+    font-size: 2rem;
+}
+
+.btnContent{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+
+
+
+.btn{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #0d141c;
+    font-weight: bolder;
+}
+
+.icon{
+    margin: 0 5px;
+}
