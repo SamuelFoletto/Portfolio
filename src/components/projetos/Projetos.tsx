@@ -4,17 +4,9 @@ import { useState } from 'react'
 import styles from "./Projetos.module.css"
 import Cards from '@/components/projetos/cards/Cards'
 import ProjetoModal from '@/components/projetos/modal/ProjetoModal'
+import { projetos } from '@/data/projetos'
+import {ProjetoProps} from "@/components/projetos/types";
 
-import { ProjetoProps } from '@/components/projetos/types'
-
-const projetos: ProjetoProps[] = [
-    {
-        title: "Galinhada in Box",
-        description: "Sistema para administração de restaurante",
-        logo: '/galinhada.jpeg',
-        github: '123'
-    }
-]
 
 export default function Projetos() {
     const [projetoSelecionado, setProjetoSelecionado] = useState<ProjetoProps | null>(null)

@@ -14,6 +14,8 @@
     );
     background-size: 400% 400%;
     animation: gradientMove 12s ease infinite;
+    text-shadow: 0 0 20px rgba(255,255,255,0.1);
+
 }
 
 @keyframes gradientMove {
@@ -50,6 +52,7 @@
 
 .name{
     font-size: 4rem;
+    letter-spacing: 2px;
 }
 
 .job{
@@ -71,6 +74,7 @@
     width: 180px;
     height: 40px;
     border-radius: 10px;
+    transition: all 0.3s ease;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -82,6 +86,10 @@
     font-weight: bolder;
 }
 
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
 .icon{
     margin: 0 5px;
 }

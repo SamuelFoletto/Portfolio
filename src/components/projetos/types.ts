@@ -3,4 +3,6 @@ export type ProjetoProps = {
     description: string
     logo: string
     github: string
+    demo: string
+    techs: string[]
 }

@@ -1,23 +1,16 @@
 import Inicio from '@/components/inicio/Inicio'
 import Projetos from '@/components/projetos/Projetos'
-
+import Sobre from '@/components/sobreMim/Sobre'
+import Contato from '@/components/contato/Contato'
 
 export default function Home() {
     return (
         <>
 
             <Inicio/>
-
-
+            <Sobre />
             <Projetos/>
-
-            <section id="sobre" style={{ height: '100vh' }}>
-                <h1>Sobre</h1>
-            </section>
-
-            <section id="contato" style={{ height: '100vh' }}>
-                <h1>Contato</h1>
-            </section>
+            <Contato />
         </>
     )
 }

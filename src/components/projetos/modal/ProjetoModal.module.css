@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.80);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,8 @@
 .modalContent {
     width: 600px;
     max-width: 600px;
-    background-color: #555555;
+    background: rgba(13,20,28, 0.7);
+    border: 2px solid #f2f2f2;
     color: white;
     padding: 30px;
     border-radius: 16px;
@@ -36,7 +37,7 @@
     cursor: pointer;
 }
 
-.link {
+.linkBtn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 16px;
@@ -44,4 +45,50 @@
     border-radius: 8px;
     color: white;
     text-decoration: none;
+}
+
+.linkBtn:hover {
+    background-color: #f2f2f2;
+    color: #0d141c;
+}
+
+
+.description {
+    white-space: pre-line;
+    line-height: 1.8;
+
+}
+
+
+.modalContent hr{
+    width: 60%;
+    margin: 5px 0;
+}
+
+.btnContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.techSection {
+    display: flex;
+    gap: 16px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.techItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #1a1a1a;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.techItem svg {
+    font-size: 18px;
 }

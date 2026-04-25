@@ -14,8 +14,8 @@ export default function Sidebar() {
 
             <nav className={styles.navBar}>
                 <a href="#home">Inicio</a>
-                <a href="#projetos">Projetos</a>
                 <a href="#sobre">Sobre mim</a>
+                <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>
             </nav>
         </aside>

@@ -12,7 +12,7 @@ export default function Inicio()
                 <div className={styles.textContent}>
                     <h3>PORTFOLIO</h3>
                     <h1 className={styles.name}>SAMUEL FOLETTO</h1>
-                    <p className={styles.job}>Desenvolvedor FullStack</p>
+                    <p className={styles.job}>Desenvolvedor WEB / FullStack</p>
                 </div>
                 <div className={styles.btnContent}>
                     <a href="https://github.com/SamuelFoletto" className={styles.btn} target="_blank" rel="noopener noreferrer">
