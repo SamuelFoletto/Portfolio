@@ -19,3 +19,23 @@
     gap: 30px;
     flex-wrap: wrap;
 }
+
+@media (max-width: 480px) {
+
+    .content {
+        padding: 30px 15px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .cardSection {
+        width: 100%;
+        max-width: 100%;
+        gap: 20px;
+        justify-content: center;
+    }
+
+}

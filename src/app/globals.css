@@ -29,3 +29,11 @@
   height: 100vh;
   overflow-y: auto;
 }
+
+
+@media (max-width: 480px) {
+  .content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
