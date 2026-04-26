@@ -1,9 +1,10 @@
-import Image from 'next/image'
 import styles from './Cards.module.css'
+import Image, { StaticImageData } from 'next/image'
+
 
 type CardsProps = {
     title: string
-    logo: string
+    logo: StaticImageData
     onOpenModal: () => void
 }
 
