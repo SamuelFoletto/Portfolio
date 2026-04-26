@@ -12,7 +12,7 @@ export default function Cards({ title, logo, onOpenModal }: CardsProps) {
         <div className={styles.cardContent}>
             <Image
                 src={logo}
-                width={200}
+                width={260}
                 height={200}
                 alt={title}
                 className={styles.img}
